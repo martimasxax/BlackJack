@@ -18,7 +18,7 @@ int obtenerValorCarta(string carta) {
         return 0;  // El valor del As se determinará más adelante
     }
     else {
-        return stoi(carta);
+        return carta;
     }
 }
 
